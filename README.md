@@ -7,14 +7,14 @@ To implement all the flipflops using verilog and validating their functionality 
 SR Flip-Flop
 SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
-![image](https://github.com/23000285/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138970859/cc5c8988-45d5-49d6-882f-3f9d84ca0d67)
+![image](https://github.com/23000285/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138970859/a7eff37a-bd76-4262-bee5-0dd4b88c7099)
 
 
 This circuit has two inputs S & R and two outputs Qt & Qt’. The operation of SR flipflop is similar to SR Latch. But, this flip-flop affects the outputs only when positive transition of the clock signal is applied instead of active enable.
 The following table shows the state table of SR flip-flop.
 
 
-![image](https://user-images.githubusercontent.com/36288975/167910648-ced88e69-869c-42e2-9718-a285a3902446.png)
+![image](https://github.com/23000285/Experiment--05-Implementation-of-flipflops-using-verilog/assets/138970859/cc5c8988-45d5-49d6-882f-3f9d84ca0d67)
 
 
 Here, Qt & Qt+1 are present state & next state respectively. So, SR flip-flop can be used for one of these three functions such as Hold, Reset & Set based on the input conditions, when positive transition of clock signal is applied. The following table shows the characteristic table of SR flip-flop.
